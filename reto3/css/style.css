@@ -1,0 +1,28 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 10px;
+    background-color: coral;
+}
+
+.main-nav .main-nav__item {
+    display: inline-block;
+}
+
+.main-nav .main-nav__item a {
+    text-decoration: none;
+    color: cornsilk;
+    padding: 5px;
+}
+
+.main-nav .main-nav__item a:hover {
+    color: darkgreen;
+}
+
+.main-nav .main-nav__item a:active {
+    color: darkmagenta;
+}
+
+.main-nav .main-nav__item a::after {
+    content: ' |  ';
+}
