@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagenes</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+    </head>
+    <body>
+<!-- Estructura de un Formulario -->
+        <form action="">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" id="nombre" placeholder="name">
+            </label>
+            <label for="inicio-platzi">
+                <span>Fecha de inicio</span>
+                <input type="date" id="inicio-platzi" placeholder="date">
+            </label>
+            <label for="horario">
+                <span>Cual es el horario de estudio</span>
+                <input type="time" id="horario" placeholder="time">
+            </label>
+        </form>
+        <!-- Estructura de un Formulario con diferentes input para completar información de un calendario -->
+        <form action="">
+            <label for="hora">
+                <span>Hora</span>
+                <input type="time" id="hora" name="hora">
+            </label>
+            <label for="dia">
+                <span>Día</span>
+                <input type="date" id="dia" name="dia">
+            </label>
+            <label for="semana">
+                <span>Semana</span>
+                <input type="week" id="semana" name="semana">
+            </label>
+            <label for="mes">
+                <span>Mes</span>
+                <input type="month" id="mes" name="mes">
+            </label>
+            <input type="submit">
+        </form>
+        <!-- Estructura de un Formulario con un solo input para completar información de un calendario -->
+        <form action="">
+            <label for="calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="calendario" name="calendario">
+                <input type="submit">
+            </label>
+        </form>
+    </body>
 </html>
