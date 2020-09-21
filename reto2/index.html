@@ -22,6 +22,7 @@
             </label>
         </form>
         <!-- Estructura de un Formulario con diferentes input para completar información de un calendario -->
+        <hr>
         <form action="">
             <label for="hora">
                 <span>Hora</span>
@@ -42,12 +43,46 @@
             <input type="submit">
         </form>
         <!-- Estructura de un Formulario con un solo input para completar información de un calendario -->
+        <hr>
         <form action="">
             <label for="calendario">
                 <span>Calendario</span>
                 <input type="datetime-local" id="calendario" name="calendario">
                 <input type="submit">
             </label>
+        </form>
+        <!-- Formulario para generar un login, con autocompletado y require -->
+        <hr>
+        <form action="">
+            <label for="nombre">
+                <span>Nombre</span>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" autocomplete="name" required>
+            </label>
+        </form>
+        <form action="">
+            <label for="correo">
+                <span>Correo Electronico</span>
+                <input type="email" name="correo" id="correo" placeholder="email@correo" autocomplete="email" required>
+            </label>
+        </form>
+        <form action="">
+            <label for="pais">
+                <span>Pais</span>
+                <input list="pais" placeholder="Colombia" autocomplete="country" required>
+                <datalist id="pais">
+                    <option value="Colombia"></option>
+                    <option value="Mexico"></option>
+                    <option value="Chile"></option>
+                    <option value="Argentina"></option>
+                </datalist>
+            </label>
+        </form>
+        <form action="">
+            <label for="cp">
+                <span>Codigo postal</span>
+                <input type="number" name="cp" id="cp" placeholder="85642" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
         </form>
     </body>
 </html>
