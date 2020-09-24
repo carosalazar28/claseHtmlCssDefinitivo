@@ -19,6 +19,7 @@ body {
     border: 1px solid #313131;
     border-radius: 5px;
     background-color: #f2f2f2;
+    position: relative;
 }
 
 .pikachu .pikachu-image {
@@ -38,8 +39,8 @@ body {
     padding: 0 20px;
     background-color: #313131;
     color: aliceblue;
-    top: 25px;
-    right: 305px;
+    top: -25px;
+    right: 80px;
 }
 
 .pikachu .pikachu-description {
