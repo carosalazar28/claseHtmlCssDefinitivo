@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.pikachu {
+    max-width: 300px;
+    max-height: 600px;
+    margin: 50px auto;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.pikachu .pikachu-image {
+    background-color: #30a7d7;
+}
+
+.pikachu .pikachu-image img {
+    width: 300px;
+}
+
+.pikachu .pikachu-image .pikachu-name {
+    position: absolute;
+    font-size: 3rem;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #313131;
+    color: aliceblue;
+    top: 25px;
+    right: 305px;
+}
+
+.pikachu .pikachu-description {
+    padding: 10px;
+}
+
+.pikachu .pikachu-description > p {
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.pikachu .pikachu-description div p {
+    font-size: 1.5rem;
+}
+
+.pikachu .pikachu-description .pikhachu-description___habilidades, .pikachu-description___debilidades {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.pikachu .pikachu-description .pikachu-description___debilidades div, .pikachu .pikachu-description .pikhachu-description___habilidades div {
+    background-color: #eed535;
+    padding: 0 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
