@@ -1,0 +1,20 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.c1 {
+    width: 60%;
+}
+
+.c2 {
+    width: 40%;
+}
+
+.c3, .c4 {
+    width: 33%;
+}
+
+.c5 {
+    width: 34%;
+}
