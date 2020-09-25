@@ -12,12 +12,14 @@ header {
     align-items: center;
     background-color: #f2f2f2;
     border-bottom: 2px solid #d4dde4;
+    width: 100%;
+    flex-direction: column-reverse;
 }
 
 .header .header-nav .header-nav___items .header-nav___item {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     display: inline-block;
-    margin: 20px;
+    margin: 10px;
     color: #5d5b5b;
 }
 
@@ -37,6 +39,8 @@ main {
 .side-bar .side-bar___item {
     background-color: #5d5b5b6b;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .side-bar .side-bar___item img {

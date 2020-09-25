@@ -1,0 +1,21 @@
+header {
+    flex-direction: unset;
+}
+
+.header .header-nav .header-nav___items .header-nav___item {
+    font-size: 2rem;
+}
+
+.header .header-nav .header-nav___items {
+    padding: 0;
+}
+
+main {
+    flex-direction: column-reverse;
+}
+
+.side-bar, .main-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
