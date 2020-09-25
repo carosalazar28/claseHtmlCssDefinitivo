@@ -1,0 +1,102 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #d4dde4;
+}
+
+.header .header-nav .header-nav___items .header-nav___item {
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: 20px;
+    color: #5d5b5b;
+}
+
+.side-bar, .main-content {
+    display: inline-block;
+}
+
+.side-bar {
+    background-color: #f2f2f2;
+}
+
+main {
+    background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+.side-bar .side-bar___item {
+    background-color: #5d5b5b6b;
+    border-radius: 10px;
+}
+
+.side-bar .side-bar___item img {
+    width: 150px;
+}
+
+.main-content {
+    max-width: 300px;
+    max-height: 480px;
+    margin: 50px auto;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+.main-content .pokemon-image {
+    background-color: #30a7d7;
+    border-radius: 10px;
+}
+
+.main-content .pokemon-image .pokemon-name {
+    position: absolute;
+    font-size: 3rem;
+    border: 1px solid #313131;
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #313131;
+    color: aliceblue;
+    top: -25px;
+    right: 80px;
+}
+
+.main-content .pokemon-image .pokemon-name p {
+    margin: 5px 0;
+}
+
+.main-content .pokemon-description {
+    padding: 10px;
+}
+
+.main-content .pokemon-description > p {
+    font-size: 1.5rem;
+    line-height: 20px;
+}
+
+.main-content .pokemon-description .description{
+    font-size: 1.8rem;
+}
+
+.main-content .pokemon-description .pokemon-description___habilidades, .pokemon-description___debilidades {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.main-content .pokemon-description .pokemon-description___debilidades div, .pokemon .pokemon-description .pokemon-description___habilidades div {
+    background-color: #eed535;
+    padding: 0 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
