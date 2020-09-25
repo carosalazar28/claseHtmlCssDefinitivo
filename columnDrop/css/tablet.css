@@ -1,0 +1,24 @@
+.c1 {
+    width: 25%;
+    order: 1;
+}
+
+.c2 {
+    width: 75%;
+    order: 2;
+}
+
+.c3 {
+    width: 100%;
+    order: 3;
+}
+
+.c4 {
+    width: 100%;
+    order: 4;
+}
+
+.c5 {
+    width: 100%;
+    order: 5;
+}
