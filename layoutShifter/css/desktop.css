@@ -1,0 +1,18 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.c1 {
+    width: 50%;
+    order: 1;
+}
+
+.c4 {
+    width: 100%;
+}
+
+.c5 {
+    width: 50%;
+    order: 2;
+}
