@@ -25,12 +25,13 @@ header {
     display: inline-block;
 }
 
-.side-bar {
-    background-color: #f2f2f2;
-}
-
 main {
     background: #fff url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png);
+}
+
+.side-bar {
+    background-color: #f2f2f2;
+    border-right: 2px solid #d4dde4;
 }
 
 .side-bar .side-bar___item {
